@@ -3,6 +3,7 @@ export const colors = {
     content: {
         ink: '#15151E',
         disabled: '#B1B1B4',
+        semantic: "#F9F8F7",
         light: '#7D7D82',
         medium: '#494950'
     },
