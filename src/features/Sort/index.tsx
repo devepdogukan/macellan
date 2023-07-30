@@ -22,7 +22,7 @@ export default function Sort() {
                         return (
                             <div key={i}
                                 onClick={() => set(i)}
-                                className={`flex-1 mr-6 pb-2 border-b top-5  left-0 ${isActive ? 'border-b-[#B1B1B4]' : 'border-b-0'}`}>
+                                className={`flex-1 mr-6 pb-2 cursor-pointer transition border-b top-5  left-0 ${isActive ? 'border-b-[#B1B1B4]' : 'border-b-0'}`}>
                                 <p className={`text-lg font-semibold ${isActive ? 'text-primary' : 'text-[#7D7D82]'}`}>{category.label}</p>
                             </div>
                         )
